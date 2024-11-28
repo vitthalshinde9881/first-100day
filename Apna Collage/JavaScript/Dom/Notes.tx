@@ -1,0 +1,13 @@
+            DOM Manipulation
+1) Insert Elements
+
+let el = document.createElement("div")
+
+node.append(el) //adds at the end of node (inside)
+node.prepend(el)//adds at the start of not(inside)
+node.before(el)//adds before the node (outside)
+node.after(el) // adds after the node (outside)
+
+2) Delete Element
+
+node.remove() //removes the node
